@@ -1,11 +1,11 @@
 import express, { Request, Response } from 'express';
-import router from '../routes/router';
+import router from './routes/router';
 
 const app = express();
 
-const PORT = process.env.PORT | 3002;
+const PORT = 3002;
 
-app.use(router());
+app.use(router);
 
 app.listen(PORT, () => {
 	try {
