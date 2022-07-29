@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:all": "nx run-many --target=build --all",
+    "build:all": "nx run-many --target=build --all --maxParallel=100",
     "build:since": "nx affected --target=build",
-    "test:all": "nx run-many --target=test --all",
+    "test:all": "nx run-many --target=test --all --maxParallel=100",
     "test:since": "nx affected --target=test",
-    "dev": "nx run-many --target=dev --all",
-    "start": "nx run-many --target=start --all",
+    "dev": "nx run-many --target=dev --all --maxParallel=100",
+    "start": "nx run-many --target=start --all --maxParallel=100",
     "test": "echo \"Error: no test specified\" && exit 1",
     "w:info": "yarn workspaces info"
   },
