@@ -1,4 +1,4 @@
-# Monorepo-Lerna-Nx-Workspace
+# MERN with Monorepo Template
 
 ## Setup
 
