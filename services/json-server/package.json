@@ -1,5 +1,5 @@
 {
-  "name": "json-server",
+  "name": "@mernmono/json-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
